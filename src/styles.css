@@ -1,0 +1,103 @@
+/* src/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4; /* Light background color for the entire page */
+}
+
+header {
+  background-color: #f8f8f8; /* Light gray background for the header */
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd; /* Light border at the bottom of the header */
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none; /* Fixed the text-decoration property */
+  color: #333; /* Dark gray text color */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff; /* Blue color for hover effect */
+}
+
+main {
+  padding: 1rem;
+}
+
+h1 {
+  color: #333; /* Dark gray color for headings */
+}
+
+input, textarea, button {
+  font-family: inherit; /* Inherit font family from body */
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+input[type="text"], input[type="password"], textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding and border are included in the element’s total width and height */
+}
+
+button {
+  background-color: #007bff; /* Blue background for buttons */
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}
+
+.fruit-card, .faq-list, .about {
+  background-color: #fff; /* White background for cards and lists */
+  padding: 1rem;
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Light shadow for depth */
+  margin-bottom: 1rem;
+}
+
+.fruit-card h2, .faq-list h2, .about h2 {
+  margin-top: 0;
+}
+
+.faq-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-list li {
+  border-bottom: 1px solid #ddd; /* Light border between FAQs */
+  padding: 0.5rem 0;
+}
+
+.faq-list button {
+  background-color: #dc3545; /* Red background for delete button */
+  color: white;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+}
+
+.faq-list button:hover {
+  background-color: #c82333; /* Darker red background on hover */
+}
